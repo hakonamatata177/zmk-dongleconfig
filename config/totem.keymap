@@ -65,6 +65,12 @@
             bindings = <&kp BACKSPACE>;
             key-positions = <5 6>;
         };
+
+        zero {
+            bindings = <&kp NUMBER_0>;
+            key-positions = <23 22>;
+            layers = <5>;
+        };
     };
 
     macros {
