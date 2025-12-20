@@ -85,7 +85,7 @@
               &kp LG(KP_NUMBER_1)  &kp LG(KP_NUMBER_2)  &kp LG(KP_NUMBER_3)  &kp LG(KP_NUMBER_4)  &kp LG(KP_NUMBER_5)    &kp RBRC  &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &kp NUMBER_0
               &kp S                &kp LEFT             &kp UP               &kp RIGHT            &kp T                  &kp RBKT  &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &kp MINUS
 &kp LEFT_WIN  &kp LEFT_WIN         &kp MINUS            &kp DOWN             &kp J                &kp O                  &kp RPAR  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp KP_MULTIPLY  &kp PLUS
-                                                        &kp                  &kp                  &kp                    &kp       &kp           &kp DOT
+                                                        &trans               &trans               &trans                 &trans    &trans        &kp DOT
             >;
         };
 
