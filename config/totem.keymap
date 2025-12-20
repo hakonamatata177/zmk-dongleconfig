@@ -93,7 +93,7 @@
         Nav {
             display-name = "Nav";
             bindings = <
-              &kp LG(NUMBER_1)  &kp LG(NUMBER_2)  &kp LG(NUMBER_3)  &kp LG(NUMBER_4)  &kp LG(NUMBER_5)    &kp PAGE_UP    &trans          &trans          &trans           &trans
+              &kp LG(NUMBER_1)  &kp LG(NUMBER_2)  &kp LG(NUMBER_3)  &kp LG(NUMBER_4)  &kp LG(NUMBER_5)    &kp PAGE_UP    &trans          &trans          &trans           &to 4
               &kp S             &kp LEFT          &kp UP            &kp RIGHT         &kp T               &kp HOME       &mmv MOVE_LEFT  &mmv MOVE_UP    &mmv MOVE_RIGHT  &trans
 &kp LEFT_WIN  &kp LEFT_WIN      &kp W             &kp DOWN          &kp J             &kp O               &kp PAGE_DOWN  &trans          &mmv MOVE_DOWN  &trans           &trans  &trans
                                                   &trans            &trans            &trans              &kp K_PREV     &kp K_PP        &kp K_NEXT
