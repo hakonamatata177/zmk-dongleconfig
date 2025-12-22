@@ -52,7 +52,7 @@
         compatible = "zmk,combos";
 
         escape {
-            bindings = <&lt 3 ESCAPE>;
+            bindings = <&lt 0 ESCAPE>;
             key-positions = <0 1>;
         };
 
@@ -69,7 +69,7 @@
         zero {
             bindings = <&kp NUMBER_0>;
             key-positions = <23 22>;
-            layers = <5>;
+            layers = <4>;
         };
     };
 
@@ -92,14 +92,14 @@
               &kp Q       &kp W       &kp E        &kp R         &kp T        &kp Y      &kp U        &kp I          &kp O           &kp P
               &hm LGUI A  &hm LALT S  &hm LCTRL D  &hm LSHIFT F  &kp G        &kp H      &hm RSHFT J  &hm RCTRL K    &hm RALT L      &hm RGUI LEFT_BRACKET
 &kp LEFT_WIN  &kp Z       &kp X       &kp C        &kp V         &kp B        &kp N      &kp M        &kp SEMICOLON  &kp APOSTROPHE  &kp COMMA              &kp DOT
-                                      &to 5        &lt 1 TAB     &kp SPACE    &kp ENTER  &lt 2 BSPC   &trans
+                                      &to 4        &lt 1 TAB     &kp SPACE    &kp ENTER  &lt 2 BSPC   &trans
             >;
         };
 
         Nav {
             display-name = "Nav";
             bindings = <
-        &kp LG(NUMBER_1)  &kp LG(NUMBER_2)  &kp LG(NUMBER_3)  &kp LG(NUMBER_4)  &kp LG(NUMBER_5)    &kp PAGE_UP    &trans          &trans          &trans           &to 4
+        &kp LG(NUMBER_1)  &kp LG(NUMBER_2)  &kp LG(NUMBER_3)  &kp LG(NUMBER_4)  &kp LG(NUMBER_5)    &kp PAGE_UP    &trans          &trans          &trans           &to 3
         &kp LG(S)         &kp LEFT          &kp UP            &kp RIGHT         &kp LG(T)           &kp HOME       &mmv MOVE_LEFT  &mmv MOVE_UP    &mmv MOVE_RIGHT  &trans
 &trans  &trans            &kp LG(W)         &kp DOWN          &kp LG(J)         &kp LG(O)           &kp PAGE_DOWN  &trans          &mmv MOVE_DOWN  &trans           &trans  &trans
                                             &trans            &trans            &trans              &kp K_PREV     &kp K_PP        &kp K_NEXT
@@ -113,16 +113,6 @@
                 &trans    &trans  &trans    &trans      &trans         &trans     &trans         &trans           &trans   &trans
 &studio_unlock  &trans    &trans  &trans    &trans      &trans         &kp UNDER  &kp EQUAL      &trans           &trans   &kp SLASH  &kp HOME
                                   &trans    &trans      &trans         &trans     &trans         &trans
-            >;
-        };
-
-        Fun {
-            display-name = "Fun";
-            bindings = <
-        &bootloader  &trans  &trans  &trans  &to 4     &trans  &trans  &trans  &kp END  &kp F1
-        &trans       &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans   &kp F10
-&trans  &trans       &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans   &kp F20  &kp F7
-                             &trans  &trans  &trans    &trans  &trans  &trans
             >;
         };
 
