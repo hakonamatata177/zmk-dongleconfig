@@ -120,7 +120,7 @@
             bindings = <
        &kp TAB    &kp Q  &kp Z  &kp E  &kp R        &kp LS(PRINTSCREEN)  &kp PRINTSCREEN  &trans      &trans  &to 0
        &kp LSHFT  &kp A  &kp W  &kp D  &kp F        &trans               &trans           &trans      &trans  &trans
-&kp B  &kp ESC    &kp X  &kp S  &kp C  &kp V        &trans               &trans           &trans      &trans  &trans  &trans
+&kp B  &kp LCTRL  &kp X  &kp S  &kp C  &kp V        &trans               &trans           &trans      &trans  &trans  &trans
                          &kp N  &kp M  &kp SPACE    &kp K_PREV           &kp K_PP         &kp K_NEXT
             >;
         };
@@ -131,6 +131,16 @@
               &kp KP_MULTIPLY   &kp N4  &kp N5  &kp N6     &kp KP_PLUS     &kp LS(LEFT_PARENTHESIS)  &kp LS(RPAR)      &trans  &trans  &trans
 &kp KP_EQUAL  &eksponent        &kp N1  &kp N2  &kp N3     &kp DOT         &kp LBKT                  &kp RBKT          &trans  &trans  &kp LBRC  &kp RBRC
                                         &to 0   &lt 1 TAB  &kp SPACE       &kp RET                   &lt 2 BACKSPACE   &trans
+            >;
+        };
+
+        game2 {
+            display-name = "Game";
+            bindings = <
+       &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_4  &kp NUMBER_5    &kp LS(PRINTSCREEN)  &kp PRINTSCREEN  &trans      &trans  &to 0
+       &kp LSHFT     &kp A         &kp W         &kp D         &kp NUMBER_6    &trans               &trans           &trans      &trans  &trans
+&kp B  &kp LCTRL     &kp X         &kp S         &kp C         &kp NUMBER_7    &trans               &trans           &trans      &trans  &trans  &trans
+                                   &kp LEFT_ALT  &kp M         &kp SPACE       &kp K_PREV           &kp K_PP         &kp K_NEXT
             >;
         };
     };
