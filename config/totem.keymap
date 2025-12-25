@@ -140,7 +140,7 @@
        &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_4  &kp NUMBER_5    &kp LS(PRINTSCREEN)  &kp PRINTSCREEN  &trans      &trans  &to 0
        &kp LSHFT     &kp A         &kp W         &kp D         &kp NUMBER_6    &trans               &trans           &trans      &trans  &trans
 &kp B  &kp LCTRL     &kp X         &kp S         &kp C         &kp NUMBER_7    &trans               &trans           &trans      &trans  &trans  &trans
-                                   &kp LEFT_ALT  &kp M         &kp SPACE       &kp K_PREV           &kp K_PP         &kp K_NEXT
+                                   &kp LEFT_ALT  &lt 5 M       &kp SPACE       &kp K_PREV           &kp K_PP         &kp K_NEXT
             >;
         };
     };
