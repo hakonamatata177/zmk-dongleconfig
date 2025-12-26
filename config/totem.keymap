@@ -98,9 +98,9 @@
         Nav {
             display-name = "Nav";
             bindings = <
-        &kp LG(NUMBER_1)  &kp LG(NUMBER_2)   &kp LG(NUMBER_3)  &kp LG(NUMBER_4)      &kp LG(NUMBER_5)    &kp PAGE_UP    &kp K_VOLUME_UP    &trans                 &trans  &to 4
-        &kp LG(S)         &mt LEFT_ALT LEFT  &mt LCTRL UP      &mt LEFT_SHIFT RIGHT  &kp LG(T)           &kp HOME       &trans             &trans                 &trans  &trans
-&trans  &trans            &kp LG(W)          &kp DOWN          &kp LG(J)             &kp LG(O)           &kp PAGE_DOWN  &kp K_VOLUME_DOWN  &trans                 &trans  &trans  &trans
+        &kp LG(NUMBER_1)  &kp LG(NUMBER_2)   &kp LG(NUMBER_3)  &kp LG(NUMBER_4)      &kp LG(NUMBER_5)    &kp PAGE_UP    &kp K_VOLUME_UP    &kp C_FF               &kp C_NEXT  &to 4
+        &kp LG(S)         &mt LEFT_ALT LEFT  &mt LCTRL UP      &mt LEFT_SHIFT RIGHT  &kp LG(T)           &kp HOME       &kp K_MUTE         &kp C_SHUFFLE          &kp C_PREV  &trans
+&trans  &trans            &kp LG(W)          &kp DOWN          &kp LG(J)             &kp LG(O)           &kp PAGE_DOWN  &kp K_VOLUME_DOWN  &kp C_RW               &trans      &trans  &trans
                                              &trans            &trans                &trans              &kp K_PREV     &kp K_PP           &mt LEFT_SHIFT K_NEXT
             >;
         };
