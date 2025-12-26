@@ -127,9 +127,9 @@
         Gaming {
             display-name = "Game";
             bindings = <
-       &mt NUMBER_1 TAB  &mt NUMBER_2 Q  &mt NUMBER_3 Z  &mt NUMBER_4 E  &mt NUMBER_5 R    &kp PAGE_UP    &kp C_VOLUME_UP    &kp C_FF       &kp C_NEXT  &to 0
-       &kp LSHFT         &kp A           &kp W           &kp D           &kp F             &kp HOME       &kp K_MUTE         &kp C_SHUFFLE  &kp C_PREV  &trans
-&kp M  &kp LCTRL         &kp X           &kp S           &kp C           &kp V             &kp PAGE_DOWN  &kp C_VOLUME_DOWN  &kp C_RW       &trans      &kp LS(PRINTSCREEN)  &kp PRINTSCREEN
+       &mt NUMBER_1 TAB  &mt NUMBER_2 Q  &mt NUMBER_3 Z  &mt NUMBER_4 E  &mt NUMBER_5 R    &kp PAGE_UP    &kp C_VOLUME_UP    &kp C_FF           &kp C_NEXT  &to 0
+       &kp LSHFT         &kp A           &kp W           &kp D           &kp F             &kp HOME       &kp K_MUTE         &kp C_RANDOM_PLAY  &kp C_PREV  &trans
+&kp M  &kp LCTRL         &kp X           &kp S           &kp C           &kp V             &kp PAGE_DOWN  &kp C_VOLUME_DOWN  &kp C_RW           &trans      &kp LS(PRINTSCREEN)  &kp PRINTSCREEN
                                          &lt 5 LEFT_ALT  &lt 1 B         &kp SPACE         &kp K_PREV     &kp K_PP           &kp K_NEXT
             >;
         };
