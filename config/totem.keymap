@@ -108,19 +108,19 @@
         Sym {
             display-name = "Sym";
             bindings = <
-                &kp EXCL  &kp AT  &kp HASH  &kp DOLLAR  &kp PERCENT    &kp CARET  &kp AMPERSAND  &kp KP_ASTERISK  &kp SQT  &kp DQT
-                &trans    &trans  &trans    &trans      &trans         &trans     &trans         &trans           &trans   &trans
-&studio_unlock  &trans    &trans  &trans    &trans      &trans         &kp UNDER  &kp EQUAL      &trans           &trans   &kp SLASH  &kp HOME
-                                  &trans    &trans      &trans         &trans     &trans         &trans
+                &kp LS(NUMBER_1)  &kp AT  &kp HASH  &kp DOLLAR  &kp PERCENT    &kp CARET  &kp AMPERSAND  &kp KP_ASTERISK  &kp SQT  &kp DQT
+                &trans            &trans  &trans    &trans      &trans         &trans     &trans         &trans           &trans   &trans
+&studio_unlock  &trans            &trans  &trans    &trans      &trans         &kp UNDER  &kp EQUAL      &trans           &trans   &kp SLASH  &kp HOME
+                                          &trans    &trans      &trans         &trans     &trans         &trans
             >;
         };
 
         numpad {
             bindings = <
-              &kp LS(NUMBER_7)  &kp N7  &kp N8  &kp N9     &kp KP_MINUS    &kp LT                    &kp GREATER_THAN  &trans  &trans  &trans
-              &kp KP_MULTIPLY   &kp N4  &kp N5  &kp N6     &kp KP_PLUS     &kp LS(LEFT_PARENTHESIS)  &kp LS(RPAR)      &trans  &trans  &trans
-&kp KP_EQUAL  &eksponent        &kp N1  &kp N2  &kp N3     &kp DOT         &kp LBKT                  &kp RBKT          &trans  &trans  &kp LBRC  &kp RBRC
-                                        &to 0   &lt 1 TAB  &kp SPACE       &kp RET                   &lt 2 BACKSPACE   &trans
+              &kp LS(NUMBER_7)  &kp N7  &kp N8  &kp N9     &kp KP_MINUS    &kp LT            &kp GREATER_THAN  &mt RA(NUMBER_3) RA(NUMBER_4)  &trans  &trans
+              &kp KP_MULTIPLY   &kp N4  &kp N5  &kp N6     &kp KP_PLUS     &kp LS(NUMBER_8)  &kp LS(NUMBER_9)  &kp LS(NUMBER_5)               &trans  &trans
+&kp KP_EQUAL  &eksponent        &kp N1  &kp N2  &kp N3     &kp DOT         &kp RA(NUMBER_8)  &kp RA(NUMBER_9)  &kp RA(NUMBER_2)               &trans  &kp LBRC  &kp RBRC
+                                        &to 0   &lt 1 TAB  &kp SPACE       &kp RET           &lt 2 BACKSPACE   &trans
             >;
         };
 
