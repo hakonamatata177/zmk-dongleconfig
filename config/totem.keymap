@@ -89,6 +89,11 @@
             key-positions = <12 11 13>;
             layers = <0 2 3 1>;
         };
+
+        tab2 {
+            bindings = <&kp TAB>;
+            key-positions = <19 18>;
+        };
     };
 
     keymap {
