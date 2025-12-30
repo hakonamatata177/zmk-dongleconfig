@@ -57,25 +57,20 @@
 
         backspace {
             bindings = <&kp BACKSPACE>;
-            key-positions = <4 3>;
+            key-positions = <3 2>;
             layers = <1 3 2 0>;
-        };
-
-        zero {
-            bindings = <&kp NUMBER_0>;
-            key-positions = <23 22>;
-            layers = <3>;
         };
 
         aaaaaaa {
             bindings = <&kp BACKSPACE>;
-            key-positions = <6 5>;
-            layers = <1 3 2 0>;
+            key-positions = <6 7>;
+            layers = <3 2 0 1>;
         };
 
         tabgames {
             bindings = <&kp TAB>;
-            key-positions = <10 11>;
+            key-positions = <21 22>;
+            layers = <4>;
         };
 
         enter {
@@ -93,6 +88,19 @@
         tab2 {
             bindings = <&kp TAB>;
             key-positions = <19 18>;
+            layers = <0 2 1 3>;
+        };
+
+        tab {
+            bindings = <&kp TAB>;
+            key-positions = <11 10>;
+            layers = <0 2 1 3>;
+        };
+
+        null {
+            bindings = <&kp NUMBER_0>;
+            key-positions = <23 22>;
+            layers = <3>;
         };
     };
 
