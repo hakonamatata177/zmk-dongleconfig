@@ -131,10 +131,10 @@
         Nav {
             display-name = "Nav";
             bindings = <
-           &kp LG(NUMBER_1)  &kp LG(NUMBER_2)   &kp LG(NUMBER_3)  &kp LG(NUMBER_4)      &kp LG(NUMBER_5)    &kp PAGE_UP    &kp C_VOLUME_UP    &trans                 &trans  &trans
-           &trans            &mt LEFT_ALT LEFT  &mt LCTRL UP      &mt LEFT_SHIFT RIGHT  &kp LG(T)           &kp HOME       &kp K_MUTE         &trans                 &trans  &trans
-&kp LG(S)  &trans            &kp LG(W)          &kp DOWN          &kp LG(J)             &kp LG(O)           &kp PAGE_DOWN  &kp C_VOLUME_DOWN  &mmv MOVE_DOWN         &trans  &kp LS(PRINTSCREEN)  &kp PRINTSCREEN
-                                                &trans            &trans                &trans              &kp K_PREV     &kp K_PP           &mt LEFT_SHIFT K_NEXT
+        &kp LG(NUMBER_1)    &kp LG(NUMBER_2)   &kp LG(NUMBER_3)  &kp LG(NUMBER_4)      &kp LG(NUMBER_5)    &kp PAGE_UP    &kp C_VOLUME_UP    &trans                 &trans  &trans
+        &mt LEFT_WIN LG(S)  &mt LEFT_ALT LEFT  &mt LCTRL UP      &mt LEFT_SHIFT RIGHT  &kp LG(T)           &kp HOME       &kp K_MUTE         &trans                 &trans  &trans
+&trans  &trans              &kp LG(W)          &kp DOWN          &kp LG(J)             &kp LG(O)           &kp PAGE_DOWN  &kp C_VOLUME_DOWN  &mmv MOVE_DOWN         &trans  &kp LS(PRINTSCREEN)  &kp PRINTSCREEN
+                                               &trans            &trans                &trans              &kp K_PREV     &kp K_PP           &mt LEFT_SHIFT K_NEXT
             >;
         };
 
