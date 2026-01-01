@@ -124,10 +124,10 @@
 
         numpad {
             bindings = <
-        &kp LS(NUMBER_7)          &kp N7           &kp N8        &kp N9             &kp KP_MINUS    &kp LT            &kp GREATER_THAN              &mt RA(NUMBER_3) RA(NUMBER_4)  &trans  &trans
-        &hm LEFT_WIN KP_MULTIPLY  &hm LEFT_ALT N4  &hm LCTRL N5  &hm LEFT_SHIFT N6  &kp KP_PLUS     &kp LS(NUMBER_8)  &hm RIGHT_SHIFT LS(NUMBER_9)  &kp LS(NUMBER_5)               &trans  &trans
-&trans  &kp RBRC                  &kp N1           &kp N2        &kp N3             &kp DOT         &kp RA(NUMBER_8)  &kp RA(NUMBER_9)              &kp RA(NUMBER_2)               &trans  &kp LBRC  &kp RBRC
-                                                   &kp KP_EQUAL  &lt 3 TAB          &kp SPACE       &kp RET           &lt 2 BACKSPACE               &trans
+        &kp LS(NUMBER_7)          &kp N7           &kp N8        &kp N9             &kp KP_MINUS    &kp LT                   &kp GREATER_THAN                      &mt RA(NUMBER_3) RA(NUMBER_4)  &trans                      &trans
+        &hm LEFT_WIN KP_MULTIPLY  &hm LEFT_ALT N4  &hm LCTRL N5  &hm LEFT_SHIFT N6  &kp KP_PLUS     &kp KP_LEFT_PARENTHESIS  &hm RIGHT_SHIFT KP_RIGHT_PARENTHESIS  &hm RCTRL LS(NUMBER_5)         &hm RIGHT_ALT RA(NUMBER_7)  &hm RIGHT_WIN RA(NUMBER_0)
+&trans  &kp RBRC                  &kp N1           &kp N2        &kp N3             &kp DOT         &kp RA(NUMBER_8)         &kp RA(NUMBER_9)                      &kp RA(NUMBER_2)               &trans                      &trans                      &trans
+                                                   &kp N0        &lt 3 KP_EQUAL     &kp SPACE       &kp RET                  &lt 2 BACKSPACE                       &trans
             >;
         };
 
