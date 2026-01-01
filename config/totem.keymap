@@ -145,7 +145,7 @@
             display-name = "Nav";
             bindings = <
         &kp LG(NUMBER_1)    &kp LG(NUMBER_2)   &kp LG(NUMBER_3)  &kp LG(NUMBER_4)      &kp LG(NUMBER_5)    &kp HOME    &kp PAGE_UP                &trans                 &trans             &trans
-        &mt LEFT_WIN LG(S)  &mt LEFT_ALT LEFT  &mt LCTRL UP      &mt LEFT_SHIFT RIGHT  &kp LG(T)           &kp END     &hm RIGHT_SHIFT PAGE_DOWN  &hm RCTRL A            &hm RIGHT_ALT A    &hm RIGHT_WIN A
+        &hm LEFT_WIN LG(S)  &hm LEFT_ALT LEFT  &hm LCTRL UP      &hm LEFT_SHIFT RIGHT  &kp LG(T)           &kp END     &hm RIGHT_SHIFT PAGE_DOWN  &hm RCTRL A            &hm RIGHT_ALT A    &hm RIGHT_WIN A
 &trans  &trans              &kp LG(W)          &kp DOWN          &kp LG(J)             &kp LG(O)           &trans      &kp C_VOLUME_UP            &kp K_MUTE             &kp C_VOLUME_DOWN  &kp LS(PRINTSCREEN)  &kp PRINTSCREEN
                                                &trans            &trans                &trans              &kp K_PREV  &kp K_PP                   &mt LEFT_SHIFT K_NEXT
             >;
