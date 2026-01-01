@@ -134,10 +134,10 @@
         Sym {
             display-name = "Sym";
             bindings = <
-                &kp LS(NUMBER_1)  &kp AT  &kp HASH  &kp DOLLAR  &kp PERCENT    &kp CARET  &kp AMPERSAND  &kp KP_ASTERISK  &kp SQT  &kp DQT
-                &trans            &trans  &trans    &trans      &trans         &trans     &trans         &trans           &trans   &trans
-&studio_unlock  &trans            &trans  &trans    &trans      &trans         &kp UNDER  &kp EQUAL      &trans           &trans   &kp SLASH  &kp HOME
-                                          &trans    &trans      &trans         &trans     &trans         &trans
+        &kp LS(NUMBER_1)  &mt RA(NUMBER_2) LS(NUMBER_2)  &kp LS(N3)  &kp LS(N4)  &kp LS(N5)    &kp LS(N6)  &kp LS(N7)  &kp LS(N8)  &kp LS(N9)  &kp LS(N0)
+        &kp RA(N1)        &kp RA(N2)                     &kp RA(N3)  &kp RA(N4)  &kp RA(N5)    &kp RA(N6)  &kp RA(N7)  &kp RA(N8)  &kp RA(N9)  &kp RA(N0)
+&trans  &trans            &trans                         &trans      &trans      &trans        &trans      &trans      &trans      &trans      &trans      &trans
+                                                         &trans      &trans      &trans        &trans      &trans      &trans
             >;
         };
 
