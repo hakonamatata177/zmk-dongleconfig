@@ -152,7 +152,7 @@
             bindings = <
         &kp LG(NUMBER_1)    &kp LG(NUMBER_2)   &kp LG(NUMBER_3)  &kp LG(NUMBER_4)      &kp LG(NUMBER_5)    &kp HOME    &kp PAGE_UP                &trans                 &trans             &trans
         &hm LEFT_WIN LG(S)  &hm LEFT_ALT LEFT  &hm LCTRL UP      &hm LEFT_SHIFT RIGHT  &kp LG(T)           &kp END     &hm RIGHT_SHIFT PAGE_DOWN  &hm RCTRL A            &hm RIGHT_ALT A    &hm RIGHT_WIN A
-&trans  &trans              &kp LG(W)          &kp DOWN          &kp LG(J)             &kp LG(O)           &trans      &kp C_VOLUME_UP            &kp K_MUTE             &kp C_VOLUME_DOWN  &kp LS(PRINTSCREEN)  &kp PRINTSCREEN
+&trans  &trans              &kp LG(W)          &kp DOWN          &kp LG(J)             &kp LG(O)           &trans      &kp C_VOLUME_UP            &kp K_MUTE             &kp C_VOLUME_DOWN  &kp LS(PRINTSCREEN)  &mt LA(PRINTSCREEN) PRINTSCREEN
                                                &trans            &trans                &trans              &kp K_PREV  &kp K_PP                   &mt LEFT_SHIFT K_NEXT
             >;
         };
@@ -178,10 +178,10 @@
         Gaming {
             display-name = "Game";
             bindings = <
-       &kp Z      &kp Q  &kp Z         &kp E    &kp R        &kp PAGE_UP    &kp C_VOLUME_UP    &trans      &trans  &trans
-       &kp LSHFT  &kp A  &kp W         &kp D    &kp F        &kp HOME       &kp K_MUTE         &trans      &trans  &trans
-&kp M  &kp LCTRL  &kp X  &kp S         &kp C    &kp V        &kp PAGE_DOWN  &kp C_VOLUME_DOWN  &trans      &trans  &kp LS(PRINTSCREEN)  &kp PRINTSCREEN
-                         &kp LEFT_ALT  &lt 3 B  &kp SPACE    &kp K_PREV     &kp K_PP           &kp K_NEXT
+       &kp Z      &kp Q  &kp Z         &kp E    &kp R        &kp LG(NUMBER_1)  &kp LG(NUMBER_2)  &kp LG(NUMBER_3)  &kp LG(NUMBER_4)   &kp LG(NUMBER_5)
+       &kp LSHFT  &kp A  &kp W         &kp D    &kp F        &kp HOME          &kp K_MUTE        &kp               &kp                &kp LG(S)
+&kp M  &kp LCTRL  &kp X  &kp S         &kp C    &kp V        &kp PAGE_DOWN     &kp C_VOLUME_UP   &kp K_MUTE        &kp C_VOLUME_DOWN  &kp LS(PRINTSCREEN)  &mt LA(PRINTSCREEN) PRINTSCREEN
+                         &kp LEFT_ALT  &lt 3 B  &kp SPACE    &kp K_PREV        &kp K_PP          &kp K_NEXT
             >;
         };
     };
