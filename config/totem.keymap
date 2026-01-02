@@ -178,7 +178,7 @@
         Gaming {
             display-name = "Game";
             bindings = <
-       &kp Z      &kp Q  &kp Z         &kp E    &kp R        &kp LG(NUMBER_1)  &kp LG(NUMBER_2)  &kp LG(NUMBER_3)  &kp LG(NUMBER_4)   &kp LG(NUMBER_5)
+       &kp I      &kp Q  &kp Z         &kp E    &kp R        &kp LG(NUMBER_1)  &kp LG(NUMBER_2)  &kp LG(NUMBER_3)  &kp LG(NUMBER_4)   &kp LG(NUMBER_5)
        &kp LSHFT  &kp A  &kp W         &kp D    &kp F        &trans            &trans            &trans            &trans             &kp LG(S)
 &kp M  &kp LCTRL  &kp X  &kp S         &kp C    &kp V        &trans            &kp C_VOLUME_UP   &kp K_MUTE        &kp C_VOLUME_DOWN  &kp LS(PRINTSCREEN)  &mt LA(PRINTSCREEN) PRINTSCREEN
                          &kp LEFT_ALT  &lt 3 B  &kp SPACE    &kp K_PREV        &kp K_PP          &kp K_NEXT
