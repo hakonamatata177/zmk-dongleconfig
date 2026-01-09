@@ -139,10 +139,10 @@
 
         numbers {
             bindings = <
-        &kp N1  &kp N2  &kp N3  &kp N4  &kp N5    &kp N6  &kp N7  &kp N8  &kp N9  &kp N0
-        &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
-                        &trans  &trans  &trans    &trans  &trans  &trans
+        &kp N1          &kp N2  &kp N3  &kp N4  &kp N5    &kp N6  &kp N7  &kp N8  &kp N9  &kp N0
+        &hm LEFT_WIN A  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans
+&trans  &trans          &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
+                                &trans  &trans  &trans    &trans  &trans  &trans
             >;
         };
 
@@ -159,10 +159,10 @@
         Nav {
             display-name = "Nav";
             bindings = <
-        &kp LG(NUMBER_1)    &kp LG(NUMBER_2)   &kp LG(NUMBER_3)  &kp LG(NUMBER_4)      &kp LG(NUMBER_5)    &kp HOME    &kp PAGE_UP                &trans                 &trans             &trans
-        &hm LEFT_WIN LG(S)  &hm LEFT_ALT LEFT  &hm LCTRL UP      &hm LEFT_SHIFT RIGHT  &kp LG(T)           &kp END     &hm RIGHT_SHIFT PAGE_DOWN  &hm RCTRL A            &hm RIGHT_ALT A    &hm RIGHT_WIN A
-&trans  &trans              &kp LG(W)          &kp DOWN          &kp LG(J)             &kp LG(O)           &trans      &kp C_VOLUME_UP            &kp K_MUTE             &kp C_VOLUME_DOWN  &kp LS(PRINTSCREEN)  &mt LA(PRINTSCREEN) PRINTSCREEN
-                                               &trans            &trans                &trans              &kp K_PREV  &kp K_PP                   &mt LEFT_SHIFT K_NEXT
+        &mt LG(LS(NUMBER_1)) LG(NUMBER_1)  &mt LG(LS(NUMBER_2)) LG(NUMBER_2)  &mt LG(LS(NUMBER_3)) LG(NUMBER_3)  &mt LG(LS(NUMBER_4)) LG(NUMBER_4)  &mt LG(LS(NUMBER_5)) LG(NUMBER_5)    &kp HOME    &kp PAGE_UP                &trans                 &trans             &trans
+        &hm LEFT_WIN LG(S)                 &hm LEFT_ALT LEFT                  &hm LCTRL UP                       &hm LEFT_SHIFT RIGHT               &kp LG(T)                            &kp END     &hm RIGHT_SHIFT PAGE_DOWN  &hm RCTRL A            &hm RIGHT_ALT A    &hm RIGHT_WIN A
+&trans  &trans                             &kp LG(W)                          &kp DOWN                           &kp LG(J)                          &kp LG(O)                            &trans      &kp C_VOLUME_UP            &kp K_MUTE             &kp C_VOLUME_DOWN  &kp LS(PRINTSCREEN)  &mt LA(PRINTSCREEN) PRINTSCREEN
+                                                                              &trans                             &trans                             &trans                               &kp K_PREV  &kp K_PP                   &mt LEFT_SHIFT K_NEXT
             >;
         };
 
