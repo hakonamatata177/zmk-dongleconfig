@@ -168,8 +168,8 @@
 
         layernav {
             bindings = <
-        &trans  &trans  &trans  &trans  &to 7     &trans  &trans  &trans  &trans  &trans
-        &trans  &trans  &to 0   &trans  &trans    &trans  &trans  &trans  &trans  &trans
+        &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans
+        &trans  &to 8   &to 0   &to 7   &trans    &trans  &trans  &trans  &trans  &trans
 &trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
                         &trans  &trans  &trans    &trans  &trans  &trans
             >;
@@ -191,6 +191,15 @@
        &kp LSHFT  &kp A  &kp W         &kp D    &kp F        &trans            &trans            &trans            &trans             &kp LG(S)
 &kp M  &kp LCTRL  &kp X  &kp S         &kp C    &kp V        &trans            &kp C_VOLUME_UP   &kp K_MUTE        &kp C_VOLUME_DOWN  &kp LS(PRINTSCREEN)  &mt LA(PRINTSCREEN) PRINTSCREEN
                          &kp LEFT_ALT  &lt 4 B  &kp SPACE    &kp K_PREV        &kp K_PP          &kp K_NEXT
+            >;
+        };
+
+        a_3d_workspaces {
+            bindings = <
+        &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans
+        &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
+                        &trans  &trans  &trans    &trans  &trans  &trans
             >;
         };
     };
