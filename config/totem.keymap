@@ -70,7 +70,7 @@
         tabgames {
             bindings = <&kp TAB>;
             key-positions = <21 22>;
-            layers = <7>;
+            layers = <8>;
         };
 
         enter {
@@ -104,14 +104,14 @@
         };
 
         layernav {
-            bindings = <&to 5>;
+            bindings = <&to 6>;
             key-positions = <21 22 23 24>;
         };
 
         steam_overlay {
             bindings = <&kp LS(TAB)>;
             key-positions = <0 10 1>;
-            layers = <7>;
+            layers = <8>;
         };
     };
 
@@ -124,7 +124,7 @@
        &kp Q       &kp W       &kp E          &kp R         &kp T          &kp Y          &kp U        &kp I          &kp O           &kp P
        &hm LGUI A  &hm LALT S  &hm LCTRL D    &hm LSHIFT F  &kp G          &kp H          &hm RSHFT J  &hm RCTRL K    &hm RALT L      &hm RGUI LEFT_BRACKET
 &sl 1  &kp Z       &kp X       &kp C          &kp V         &kp B          &kp N          &kp M        &kp SEMICOLON  &kp APOSTROPHE  &mt LESS_THAN COMMA    &mt GREATER_THAN DOT
-                               &kp LS(SLASH)  &lt 4 TAB     &lt 2 SPACE    &kp BACKSPACE  &lt 3 ENTER  &lt 6 SLASH
+                               &kp LS(SLASH)  &lt 4 TAB     &lt 2 SPACE    &kp BACKSPACE  &lt 3 ENTER  &lt 7 SLASH
             >;
         };
 
@@ -161,15 +161,24 @@
             bindings = <
               &mt LG(LS(NUMBER_1)) LG(NUMBER_1)  &mt LG(LS(NUMBER_2)) LG(NUMBER_2)  &mt LG(LS(NUMBER_3)) LG(NUMBER_3)  &mt LG(LS(NUMBER_4)) LG(NUMBER_4)  &mt LG(LS(NUMBER_5)) LG(NUMBER_5)    &kp HOME    &kp PAGE_UP                &trans                 &trans             &trans
               &hm LEFT_WIN LG(S)                 &kp LEFT                           &kp UP                             &kp RIGHT                          &kp LG(T)                            &kp END     &hm RIGHT_SHIFT PAGE_DOWN  &hm RCTRL A            &hm RIGHT_ALT A    &hm RIGHT_WIN A
-&kp LEFT_ALT  &trans                             &kp LG(W)                          &kp DOWN                           &kp LG(J)                          &kp LG(O)                            &trans      &kp C_VOLUME_UP            &kp K_MUTE             &kp C_VOLUME_DOWN  &kp LS(PRINTSCREEN)  &mt LA(PRINTSCREEN) PRINTSCREEN
+&kp LEFT_ALT  &lt 5 LA(LG(TAB))                  &kp LG(W)                          &kp DOWN                           &kp LG(J)                          &kp LG(O)                            &trans      &kp C_VOLUME_UP            &kp K_MUTE             &kp C_VOLUME_DOWN  &kp LS(PRINTSCREEN)  &mt LA(PRINTSCREEN) PRINTSCREEN
                                                                                     &trans                             &trans                             &trans                               &kp K_PREV  &kp K_PP                   &mt LEFT_SHIFT K_NEXT
+            >;
+        };
+
+        tab-nav {
+            bindings = <
+        &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans
+        &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
+                        &trans  &trans  &trans    &trans  &trans  &trans
             >;
         };
 
         layernav {
             bindings = <
         &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans
-        &trans  &to 8   &to 0   &to 7   &trans    &trans  &trans  &trans  &trans  &trans
+        &trans  &to 9   &to 0   &to 8   &trans    &trans  &trans  &trans  &trans  &trans
 &trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
                         &trans  &trans  &trans    &trans  &trans  &trans
             >;
