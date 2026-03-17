@@ -147,8 +147,8 @@
             >;
         };
 
-        Sym+numb {
-            display-name = "Sym + numb";
+        numsym {
+            display-name = "Sym_numb";
             bindings = <
            &kp LS(NUMBER_1)  &mt RA(NUMBER_2) LS(NUMBER_2)  &kp LS(N3)  &kp LS(N4)  &kp LS(N5)    &kp LS(N6)       &kp LS(N7)   &kp LS(N8)    &kp LS(N9)  &kp LS(N0)
            &kp N1            &kp N2                         &kp N3      &kp N4      &kp N5        &kp N6           &kp N7       &kp N8        &kp N9      &kp N0
@@ -197,10 +197,10 @@
         Gaming {
             display-name = "Game";
             bindings = <
-       &kp I      &kp Q  &kp Z         &kp E    &kp R        &kp LG(NUMBER_1)  &kp LG(NUMBER_2)  &kp LG(NUMBER_3)  &kp LG(NUMBER_4)   &kp LG(NUMBER_5)
-       &kp LSHFT  &kp A  &kp W         &kp D    &kp F        &trans            &trans            &trans            &trans             &kp LG(S)
-&kp M  &kp LCTRL  &kp X  &kp S         &kp C    &kp V        &trans            &kp C_VOLUME_UP   &kp K_MUTE        &kp C_VOLUME_DOWN  &kp LS(PRINTSCREEN)  &mt LA(PRINTSCREEN) PRINTSCREEN
-                         &kp LEFT_ALT  &lt 4 B  &kp SPACE    &kp K_PREV        &kp K_PP          &kp K_NEXT
+       &kp I      &kp Q  &kp Z         &kp E  &kp R        &kp LG(NUMBER_1)  &kp LG(NUMBER_2)  &kp LG(NUMBER_3)  &kp LG(NUMBER_4)   &kp LG(NUMBER_5)
+       &kp LSHFT  &kp A  &kp W         &kp D  &kp F        &trans            &trans            &trans            &trans             &kp LG(S)
+&kp M  &kp LCTRL  &kp X  &kp S         &kp C  &kp V        &trans            &kp C_VOLUME_UP   &kp K_MUTE        &kp C_VOLUME_DOWN  &kp LS(PRINTSCREEN)  &mt LA(PRINTSCREEN) PRINTSCREEN
+                         &kp LEFT_ALT  &kp B  &kp SPACE    &kp K_PREV        &kp K_PP          &kp K_NEXT
             >;
         };
 
