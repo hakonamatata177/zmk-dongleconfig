@@ -46,6 +46,16 @@
             global-quick-tap;
             bindings = <&kp>, <&kp>;
         };
+
+        kp_msc: kp_msc {
+            compatible = "zmk,behavior-hold-tap";
+            label = "KP_MSC";
+            bindings = <&msc>, <&kp>;
+
+            #binding-cells = <2>;
+            tapping-term-ms = <200>;
+            quick-tap-ms = <125>;
+        };
     };
 
     combos {
@@ -161,8 +171,8 @@
             display-name = "Nav";
             bindings = <
               &mt LG(LS(NUMBER_1)) LG(NUMBER_1)  &mt LG(LS(NUMBER_2)) LG(NUMBER_2)  &mt LG(LS(NUMBER_3)) LG(NUMBER_3)  &mt LG(LS(NUMBER_4)) LG(NUMBER_4)  &mt LG(LS(NUMBER_5)) LG(NUMBER_5)    &trans      &trans          &trans                 &trans           &kp C_VOLUME_UP
-              &hm LEFT_WIN LG(S)                 &kp LEFT                           &kp UP                             &kp RIGHT                          &kp PAGE_UP                          &kp HOME    &mmv MOVE_LEFT  &mmv MOVE_UP           &mmv MOVE_RIGHT  &mt C_SHUFFLE K_MUTE
-&kp LEFT_ALT  &kp LA(LG(TAB))                    &kp LG(J)                          &kp DOWN                           &kp LG(O)                          &kp PAGE_DOWN                        &kp END     &mkp LCLK       &mmv MOVE_DOWN         &mkp RCLK        &kp C_VOLUME_DOWN     &mt LA(PRINTSCREEN) PRINTSCREEN
+              &hm LEFT_WIN LG(S)                 &kp LEFT                           &kp UP                             &kp RIGHT                          &kp_msc SCRL_UP PAGE_UP              &kp HOME    &mmv MOVE_LEFT  &mmv MOVE_UP           &mmv MOVE_RIGHT  &mt C_SHUFFLE K_MUTE
+&kp LEFT_ALT  &kp LA(LG(TAB))                    &kp LG(J)                          &kp DOWN                           &kp LG(O)                          &kp_msc SCRL_DOWN PAGE_DOWN          &kp END     &mkp LCLK       &mmv MOVE_DOWN         &mkp RCLK        &kp C_VOLUME_DOWN     &mt LA(PRINTSCREEN) PRINTSCREEN
                                                                                     &trans                             &trans                             &trans                               &kp K_PREV  &lt 5 K_PP      &mt LEFT_SHIFT K_NEXT
             >;
         };
