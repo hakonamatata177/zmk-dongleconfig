@@ -165,8 +165,8 @@
             display-name = "Nav";
             bindings = <
               &mt LG(LS(NUMBER_1)) LG(NUMBER_1)  &mt LG(LS(NUMBER_2)) LG(NUMBER_2)  &mt LG(LS(NUMBER_3)) LG(NUMBER_3)  &mt LG(LS(NUMBER_4)) LG(NUMBER_4)  &mt LG(LS(NUMBER_5)) LG(NUMBER_5)    &trans      &trans            &trans                 &trans           &kp C_VOLUME_UP
-              &hm LEFT_WIN LG(S)                 &kp LEFT                           &kp UP                             &kp RIGHT                          &kp_msc SCRL_UP PAGE_UP              &kp HOME    &mmv MOVE_LEFT    &mmv MOVE_UP           &mmv MOVE_RIGHT  &mt C_SHUFFLE K_MUTE
-&kp LEFT_ALT  &kp LA(LG(TAB))                    &kp LG(J)                          &kp DOWN                           &kp LG(O)                          &kp_msc SCRL_DOWN PAGE_DOWN          &kp END     &mkp LCLK         &mmv MOVE_DOWN         &mkp RCLK        &kp C_VOLUME_DOWN     &mt LA(PRINTSCREEN) PRINTSCREEN
+              &hm LEFT_WIN LG(S)                 &kp LEFT                           &kp UP                             &kp RIGHT                          &kp_msc SCRL_UP PAGE_UP              &kp HOME    &mmv MOVE_LEFT    &mmv MOVE_UP           &mmv MOVE_RIGHT  &kp K_MUTE
+&kp LEFT_ALT  &kp LA(LG(TAB))                    &kp LG(J)                          &kp DOWN                           &kp LG(O)                          &kp_msc SCRL_DOWN PAGE_DOWN          &kp END     &mkp LCLK         &mmv MOVE_DOWN         &mkp RCLK        &kp C_VOLUME_DOWN  &mt LA(PRINTSCREEN) PRINTSCREEN
                                                                                     &trans                             &trans                             &trans                               &kp K_PREV  &kp K_PLAY_PAUSE  &mt LEFT_SHIFT K_NEXT
             >;
         };
@@ -201,10 +201,10 @@
         Gaming {
             display-name = "Game";
             bindings = <
-       &kp I      &kp Q  &kp Z   &kp E  &kp R        &kp LG(NUMBER_1)  &kp LG(NUMBER_2)  &kp LG(NUMBER_3)  &kp LG(NUMBER_4)   &kp LG(NUMBER_5)
-       &kp LSHFT  &kp A  &kp W   &kp D  &kp F        &trans            &trans            &trans            &trans             &kp LG(S)
-&kp M  &kp LCTRL  &kp X  &kp S   &kp C  &kp V        &kp LS(TAB)       &kp C_VOLUME_UP   &kp K_MUTE        &kp C_VOLUME_DOWN  &kp LS(PRINTSCREEN)  &mt LA(PRINTSCREEN) PRINTSCREEN
-                         &sl 10  &kp B  &kp SPACE    &kp K_PREV        &kp K_PP          &kp K_NEXT
+              &kp I      &kp Q  &kp Z   &kp E  &kp R        &kp LG(NUMBER_1)  &kp LG(NUMBER_2)  &kp LG(NUMBER_3)  &kp LG(NUMBER_4)   &kp LG(NUMBER_5)
+              &kp LSHFT  &kp A  &kp W   &kp D  &kp F        &trans            &trans            &trans            &trans             &kp LG(S)
+&kp LEFT_ALT  &kp LCTRL  &kp X  &kp S   &kp C  &kp V        &kp LS(TAB)       &kp C_VOLUME_UP   &kp K_MUTE        &kp C_VOLUME_DOWN  &trans            &mt LA(PRINTSCREEN) PRINTSCREEN
+                                &sl 10  &kp B  &kp SPACE    &kp K_PREV        &kp K_PP          &kp K_NEXT
             >;
         };
 
