@@ -183,7 +183,7 @@
         layernav {
             bindings = <
         &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans
-        &trans  &to 9   &to 0   &to 8   &trans    &trans  &trans  &trans  &trans  &trans
+        &trans  &to 10  &to 0   &to 8   &trans    &trans  &trans  &trans  &trans  &trans
 &trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
                         &trans  &trans  &trans    &trans  &trans  &trans
             >;
@@ -201,10 +201,19 @@
         Gaming {
             display-name = "Game";
             bindings = <
-       &kp I      &kp Q  &kp Z         &kp E  &kp R        &kp LG(NUMBER_1)  &kp LG(NUMBER_2)  &kp LG(NUMBER_3)  &kp LG(NUMBER_4)   &kp LG(NUMBER_5)
-       &kp LSHFT  &kp A  &kp W         &kp D  &kp F        &trans            &trans            &trans            &trans             &kp LG(S)
-&kp M  &kp LCTRL  &kp X  &kp S         &kp C  &kp V        &kp LS(TAB)       &kp C_VOLUME_UP   &kp K_MUTE        &kp C_VOLUME_DOWN  &kp LS(PRINTSCREEN)  &mt LA(PRINTSCREEN) PRINTSCREEN
-                         &kp LEFT_ALT  &kp B  &kp SPACE    &kp K_PREV        &kp K_PP          &kp K_NEXT
+       &kp I      &kp Q  &kp Z   &kp E  &kp R        &kp LG(NUMBER_1)  &kp LG(NUMBER_2)  &kp LG(NUMBER_3)  &kp LG(NUMBER_4)   &kp LG(NUMBER_5)
+       &kp LSHFT  &kp A  &kp W   &kp D  &kp F        &trans            &trans            &trans            &trans             &kp LG(S)
+&kp M  &kp LCTRL  &kp X  &kp S   &kp C  &kp V        &kp LS(TAB)       &kp C_VOLUME_UP   &kp K_MUTE        &kp C_VOLUME_DOWN  &kp LS(PRINTSCREEN)  &mt LA(PRINTSCREEN) PRINTSCREEN
+                         &sl 10  &kp B  &kp SPACE    &kp K_PREV        &kp K_PP          &kp K_NEXT
+            >;
+        };
+
+        gaming+ {
+            bindings = <
+        &mt NUMBER_6 NUMBER_1  &mt NUMBER_7 NUMBER_2  &mt NUMBER_8 NUMBER_3  &mt NUMBER_9 NUMBER_4  &mt NUMBER_0 N5    &trans  &trans  &trans  &trans  &trans
+        &trans                 &trans                 &trans                 &trans                 &trans             &trans  &trans  &trans  &trans  &trans
+&trans  &trans                 &trans                 &trans                 &trans                 &trans             &trans  &trans  &trans  &trans  &trans  &trans
+                                                      &trans                 &trans                 &trans             &trans  &trans  &trans
             >;
         };
 
