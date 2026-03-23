@@ -92,7 +92,7 @@
 
         enter2 {
             bindings = <&kp ENTER>;
-            key-positions = <12 11 13>;
+            key-positions = <16 17 18>;
             layers = <0 3 1 4>;
         };
 
@@ -117,12 +117,6 @@
         layernav {
             bindings = <&to 6>;
             key-positions = <21 22 23 24>;
-        };
-
-        steam_overlay {
-            bindings = <&kp LS(TAB)>;
-            key-positions = <0 10 1>;
-            layers = <8>;
         };
     };
 
@@ -179,10 +173,10 @@
 
         tab-nav {
             bindings = <
-        &trans  &kp LS(LA(W))  &kp LC(W)  &kp LC(T)        &kp LC(N)    &trans  &trans  &trans  &trans  &trans
-        &trans  &mkp MB5       &kp PG_UP  &kp LC(TAB)      &trans       &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &mkp MB4       &kp PG_DN  &kp LC(LS(TAB))  &trans       &trans  &trans  &trans  &trans  &trans  &trans
-                               &trans     &trans           &trans       &trans  &trans  &trans
+        &trans  &kp LS(LA(W))  &kp LC(W)  &kp LC(T)        &kp LC(N)                      &trans  &trans  &trans  &trans  &trans
+        &trans  &trans         &mkp MB5   &kp LC(TAB)      &kp_msc SCRL_UP PAGE_UP        &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans         &mkp MB4   &kp LC(LS(TAB))  &kp_msc SCRL_DOWN PAGE_DOWN    &trans  &trans  &trans  &trans  &trans  &trans
+                               &trans     &trans           &trans                         &trans  &trans  &trans
             >;
         };
 
