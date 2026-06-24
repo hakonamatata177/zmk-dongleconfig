@@ -165,10 +165,10 @@
         Nav {
             display-name = "Nav";
             bindings = <
-              &mt LG(LS(NUMBER_1)) LG(NUMBER_1)  &mt LG(LS(NUMBER_2)) LG(NUMBER_2)  &mt LG(LS(NUMBER_3)) LG(NUMBER_3)  &mt LG(LS(NUMBER_4)) LG(NUMBER_4)  &mt LG(LS(NUMBER_5)) LG(NUMBER_5)    &mt LG(ESCAPE) A       &trans            &trans          &trans           &kp C_VOLUME_UP
-              &hm LEFT_WIN LG(S)                 &kp LEFT                           &kp UP                             &kp RIGHT                          &kp LG(O)                            &kp_msc SCRL_UP HOME   &mmv MOVE_LEFT    &mmv MOVE_UP    &mmv MOVE_RIGHT  &kp K_MUTE
-&kp LEFT_ALT  &mt LEFT_SHIFT LG(TAB)             &mkp RCLK                          &kp DOWN                           &mkp LCLK                          &kp LG(J)                            &kp_msc SCRL_DOWN END  &mkp LCLK         &mmv MOVE_DOWN  &mkp RCLK        &kp C_VOLUME_DOWN  &mt LA(PRINTSCREEN) PRINTSCREEN
-                                                                                    &trans                             &trans                             &trans                               &kp K_PREV             &kp K_PLAY_PAUSE  &kp K_NEXT
+                 &mt LG(LS(NUMBER_1)) LG(NUMBER_1)  &mt LG(LS(NUMBER_2)) LG(NUMBER_2)  &mt LG(LS(NUMBER_3)) LG(NUMBER_3)  &mt LG(LS(NUMBER_4)) LG(NUMBER_4)  &mt LG(LS(NUMBER_5)) LG(NUMBER_5)    &trans                 &trans            &trans          &trans           &kp C_VOLUME_UP
+                 &mt LGUI LC(TAB)                   &kp LEFT                           &kp UP                             &kp RIGHT                          &mkp MB5                             &kp_msc SCRL_UP HOME   &mmv MOVE_LEFT    &mmv MOVE_UP    &mmv MOVE_RIGHT  &kp K_MUTE
+&kp LC(LS(TAB))  &mt LA(LG(S)) LG(S)                &mkp RCLK                          &kp DOWN                           &mkp LCLK                          &mkp MB4                             &kp_msc SCRL_DOWN END  &trans            &mmv MOVE_DOWN  &trans           &kp C_VOLUME_DOWN  &mt LA(PRINTSCREEN) PRINTSCREEN
+                                                                                       &trans                             &trans                             &trans                               &kp K_PREV             &kp K_PLAY_PAUSE  &kp K_NEXT
             >;
         };
 
@@ -185,7 +185,7 @@
             bindings = <
         &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &studio_unlock
         &trans  &to 10  &to 0   &to 8   &trans    &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans          &trans
                         &trans  &trans  &trans    &trans  &trans  &trans
             >;
         };
