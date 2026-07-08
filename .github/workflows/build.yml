@@ -2,4 +2,6 @@ on: [push, pull_request, workflow_dispatch]
 
 jobs:
   build:
-    uses: zmkfirmware/zmk/.github/workflows/build-user-config.yml@main
+    # Pinned pre-ZMK_BOARD_COMPAT check (2025-12-22): the Genteure fork uses the
+    # older xiao_ble/nrf52840 board without the /zmk variant, which @main rejects.
+    uses: zmkfirmware/zmk/.github/workflows/build-user-config.yml@8266433d6b85cfecf57a4ba48e27e1eebb3de7b2
