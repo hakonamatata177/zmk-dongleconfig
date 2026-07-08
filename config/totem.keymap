@@ -175,8 +175,8 @@
 
         layernav {
             bindings = <
-        &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &studio_unlock
-        &trans  &to 9   &to 0   &to 7   &trans    &trans  &trans  &trans  &trans  &out OUT_TOG
+        &trans  &trans  &trans  &trans  &trans    &trans      &trans        &trans        &trans        &studio_unlock
+        &trans  &to 9   &to 0   &to 7   &trans    &bt BT_CLR  &bt BT_SEL 0  &bt BT_SEL 1  &out OUT_USB  &out OUT_TOG
 &trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans          &trans
                         &trans  &trans  &trans    &trans  &trans  &trans
             >;
